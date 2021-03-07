@@ -49,6 +49,7 @@ public class TestDictionary {
         FileWriter writer = new FileWriter("D:\\meanings.txt");
         BufferedWriter buffer = new BufferedWriter(writer);
         buffer.write(allMeanings.toString());
+        buffer.close();
     }
 
 }
